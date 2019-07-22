@@ -1,0 +1,17 @@
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\RegExTest.deps.json
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\RegExTest.runtimeconfig.json
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\RegExTest.runtimeconfig.dev.json
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\RegExTest.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\RegExTest.pdb
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\Validator.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\bin\Debug\netcoreapp2.1\Validator.pdb
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.csprojAssemblyReference.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.csproj.CoreCompileInputs.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.AssemblyInfoInputs.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.AssemblyInfo.cs
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.csproj.CopyComplete
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\RegExTest\obj\Debug\netcoreapp2.1\RegExTest.pdb

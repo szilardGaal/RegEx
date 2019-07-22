@@ -1,0 +1,13 @@
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\bin\Debug\regular expressions.exe.config
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\bin\Debug\regular expressions.exe
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\bin\Debug\regular expressions.pdb
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular expressions.csprojAssemblyReference.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular_expressions.MainForm.resources
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular_expressions.Properties.Resources.resources
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular expressions.csproj.GenerateResource.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular expressions.csproj.CoreCompileInputs.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular expressions.exe
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular expressions.pdb
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\bin\Debug\Validator.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\bin\Debug\Validator.pdb
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\regular expressions\obj\Debug\regular expressions.csproj.CopyComplete

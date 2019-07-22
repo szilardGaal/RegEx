@@ -1,0 +1,6 @@
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\Validator\bin\Debug\Validator.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\Validator\bin\Debug\Validator.pdb
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\Validator\obj\Debug\Validator.csprojAssemblyReference.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\Validator\obj\Debug\Validator.csproj.CoreCompileInputs.cache
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\Validator\obj\Debug\Validator.dll
+C:\Users\gaals\Desktop\C#\.NET modul\3rd SI week\Regular expressions\regular expressions\Validator\obj\Debug\Validator.pdb
