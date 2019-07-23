@@ -25,11 +25,12 @@ namespace regular_expressions
             string PhoneNumber = PhoneBox.Text;
             string Email = MailBox.Text;
 
-            if (!Validator.ValidName(NameString) || NameString == "Full Name") MessageText += "Not a valid name format!\n";
-            if (!Validator.ValidCellPhoneNumberHUN(PhoneNumber)) MessageText += "Not a valid hungarian cell phone number!\n";
-            if (!Validator.ValidateEmail(Email) || Email == "example@something.com") MessageText += "Not a valid e-mail address!";
+            if (!RegexOperations.ValidName(NameString) || NameString == "Full Name") MessageText += "Not a valid name format!\n";
+            if (!RegexOperations.ValidCellPhoneNumberHUN(PhoneNumber)) MessageText += "Not a valid hungarian cell phone number!\n";
+            if (!RegexOperations.ValidateEmail(Email) || Email == "example@something.com") MessageText += "Not a valid e-mail address!";
 
             if (MessageText == "") MessageText += "All good!";
+            if (MessageText == "All good") PhoneBox.Text = RegexOperations.ReformatPhone(PhoneNumber);
             MessageBox.Show(MessageText);
         }
 
@@ -53,7 +54,7 @@ namespace regular_expressions
 
         private void PhoneBox_Enter(object sender, EventArgs e)
         {
-            if (PhoneBox.Text == @"+36 ## ### ####")
+            if (PhoneBox.Text == @"+36 #########")
             {
                 PhoneBox.Text = "";
                 PhoneBox.ForeColor = Color.Black;
@@ -62,10 +63,10 @@ namespace regular_expressions
 
         private void PhoneBox_Leave(object sender, EventArgs e)
         {
-            if (PhoneBox.Text == "" || PhoneBox.Text == @"+36 ## ### ####")
+            if (PhoneBox.Text == "" || PhoneBox.Text == @"+36 #########")
             {
                 PhoneBox.ForeColor = Color.Silver;
-                PhoneBox.Text = "+36 ## ### ####";
+                PhoneBox.Text = "+36 #########";
             }
         }
 

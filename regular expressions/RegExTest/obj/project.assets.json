@@ -1572,13 +1572,13 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Validator/1.0.0": {
+      "RegexLibrary/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/Validator.dll": {}
+          "bin/placeholder/RegexLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Validator.dll": {}
+          "bin/placeholder/RegexLibrary.dll": {}
         }
       }
     }
@@ -5688,10 +5688,10 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Validator/1.0.0": {
+    "RegexLibrary/1.0.0": {
       "type": "project",
-      "path": "../Validator/Validator.csproj",
-      "msbuildProject": "../Validator/Validator.csproj"
+      "path": "../Validator/RegexLibrary.csproj",
+      "msbuildProject": "../Validator/RegexLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5700,7 +5700,7 @@
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Validator >= 1.0.0"
+      "RegexLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5733,8 +5733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\gaals\\Desktop\\C#\\.NET modul\\3rd SI week\\Regular expressions\\regular expressions\\Validator\\Validator.csproj": {
-              "projectPath": "C:\\Users\\gaals\\Desktop\\C#\\.NET modul\\3rd SI week\\Regular expressions\\regular expressions\\Validator\\Validator.csproj"
+            "C:\\Users\\gaals\\Desktop\\C#\\.NET modul\\3rd SI week\\Regular expressions\\regular expressions\\Validator\\RegexLibrary.csproj": {
+              "projectPath": "C:\\Users\\gaals\\Desktop\\C#\\.NET modul\\3rd SI week\\Regular expressions\\regular expressions\\Validator\\RegexLibrary.csproj"
             }
           }
         }

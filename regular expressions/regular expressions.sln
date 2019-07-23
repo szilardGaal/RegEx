@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "regular expressions", "regu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExTest", "RegExTest\RegExTest.csproj", "{50D07E50-38B1-4CF4-B070-3DAD947742C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator", "Validator\Validator.csproj", "{361497DA-7CB8-47D7-AC9C-5314117F5467}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexLibrary", "Validator\RegexLibrary.csproj", "{361497DA-7CB8-47D7-AC9C-5314117F5467}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

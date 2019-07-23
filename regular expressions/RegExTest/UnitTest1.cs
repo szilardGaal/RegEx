@@ -11,99 +11,99 @@ namespace RegExTest
         [TestMethod]
         public void ValidNameGoodParams()
         {
-            Assert.IsTrue(Validator.ValidName("Valid Name"));
-            Assert.IsTrue(Validator.ValidName("Longer Valid Name"));
+            Assert.IsTrue(RegexOperations.ValidName("Valid Name"));
+            Assert.IsTrue(RegexOperations.ValidName("Longer Valid Name"));
         }
 
         [TestMethod]
         public void InvalidNameWithNumbers()
         {
-            Assert.IsFalse(Validator.ValidName("123 Joe"));
-            Assert.IsFalse(Validator.ValidName("H4xor G0d"));
+            Assert.IsFalse(RegexOperations.ValidName("123 Joe"));
+            Assert.IsFalse(RegexOperations.ValidName("H4xor G0d"));
         }
 
         [TestMethod]
         public void InvalidNamesNotCapital()
         {
-            Assert.IsFalse(Validator.ValidName("little Letter"));
-            Assert.IsFalse(Validator.ValidName("Little letter"));
+            Assert.IsFalse(RegexOperations.ValidName("little Letter"));
+            Assert.IsFalse(RegexOperations.ValidName("Little letter"));
         }
 
         [TestMethod]
         public void InvalidNameEmptyString()
         {
-            Assert.IsFalse(Validator.ValidName(""));
+            Assert.IsFalse(RegexOperations.ValidName(""));
         }
 
         [TestMethod]
         public void ValidPhoneNumber()
         {
-            Assert.IsTrue(Validator.ValidCellPhoneNumberHUN("+36 20 123 3456"));
-            Assert.IsTrue(Validator.ValidCellPhoneNumberHUN("+36 30 321 3445"));
+            Assert.IsTrue(RegexOperations.ValidCellPhoneNumberHUN("+36 201233456"));
+            Assert.IsTrue(RegexOperations.ValidCellPhoneNumberHUN("+36 303213445"));
         }
 
         public void InvalidPhoneNumberFormat()
         {
-            Assert.IsFalse(Validator.ValidCellPhoneNumberHUN("+36201233456"));
-            Assert.IsFalse(Validator.ValidCellPhoneNumberHUN("36 30 123 2345"));
-            Assert.IsFalse(Validator.ValidCellPhoneNumberHUN("+36 54 123 1234"));
+            Assert.IsFalse(RegexOperations.ValidCellPhoneNumberHUN("+36201233456"));
+            Assert.IsFalse(RegexOperations.ValidCellPhoneNumberHUN("36 30 123 2345"));
+            Assert.IsFalse(RegexOperations.ValidCellPhoneNumberHUN("+36 54 1231234"));
         }
 
         public void InvalidPhoneNumberNotNumber()
         {
-            Assert.IsFalse(Validator.ValidCellPhoneNumberHUN("+36 30 123 234o"));
-            Assert.IsFalse(Validator.ValidCellPhoneNumberHUN("+36 30 ## ?:! 241O"));
+            Assert.IsFalse(RegexOperations.ValidCellPhoneNumberHUN("+36 30123234o"));
+            Assert.IsFalse(RegexOperations.ValidCellPhoneNumberHUN("+36 30##?:!241O"));
         }
 
         public void InvalidPhoneNumberEmptyString()
         {
-            Assert.IsFalse(Validator.ValidCellPhoneNumberHUN(""));
+            Assert.IsFalse(RegexOperations.ValidCellPhoneNumberHUN(""));
         }
 
         [TestMethod]
         public void ValidEmailAddress()
         {
-            Assert.IsTrue(Validator.ValidateEmail("something@otherthing.com"));
+            Assert.IsTrue(RegexOperations.ValidateEmail("something@otherthing.com"));
         }
 
         [TestMethod]
         public void InvalidEmailNoAtSign()
         {
-            Assert.IsFalse(Validator.ValidateEmail("missingatsign.com"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("missingatsign.com"));
         }
 
         [TestMethod]
         public void InvalidEmailMultipleAtSign()
         {
-            Assert.IsFalse(Validator.ValidateEmail("toomany@@atsign.com"));
-            Assert.IsFalse(Validator.ValidateEmail("toom@ny@atsign.com"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("toomany@@atsign.com"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("toom@ny@atsign.com"));
         }
 
         [TestMethod]
         public void InvalidEmailNoDot()
         {
-            Assert.IsFalse(Validator.ValidateEmail("there@isnodothere"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("there@isnodothere"));
         }
 
         [TestMethod]
         public void InvalidEmailTooManyDots()
         {
-            Assert.IsFalse(Validator.ValidateEmail("there@retoo.many..dots"));
-            Assert.IsFalse(Validator.ValidateEmail("dots..every@where.here"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("there@retoo.many..dots"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("dots..every@where.here"));
         }
 
         [TestMethod]
         public void InvalidEmailAddressCapital()
         {
-            Assert.IsFalse(Validator.ValidateEmail("BIGLETTERS@notgood.ro"));
-            Assert.IsFalse(Validator.ValidateEmail("noteven@HERE.hu"));
-            Assert.IsFalse(Validator.ValidateEmail("nor@there.COM"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("BIGLETTERS@notgood.ro"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("noteven@HERE.hu"));
+            Assert.IsFalse(RegexOperations.ValidateEmail("nor@there.COM"));
         }
 
         [TestMethod]
         public void InvalidEmailEmptyStrnig()
         {
-            Assert.IsFalse(Validator.ValidateEmail(""));
+            Assert.IsFalse(RegexOperations.ValidateEmail(""));
         }
     }
 }

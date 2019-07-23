@@ -80,9 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Validator\Validator.csproj">
+    <ProjectReference Include="..\Validator\RegexLibrary.csproj">
       <Project>{361497da-7cb8-47d7-ac9c-5314117f5467}</Project>
-      <Name>Validator</Name>
+      <Name>RegexLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

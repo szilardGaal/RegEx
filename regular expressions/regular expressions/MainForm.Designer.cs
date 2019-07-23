@@ -82,7 +82,7 @@
             this.PhoneBox.Name = "PhoneBox";
             this.PhoneBox.Size = new System.Drawing.Size(198, 20);
             this.PhoneBox.TabIndex = 4;
-            this.PhoneBox.Text = "+36 ## ### ####";
+            this.PhoneBox.Text = "+36 #########";
             this.PhoneBox.Enter += new System.EventHandler(this.PhoneBox_Enter);
             this.PhoneBox.Leave += new System.EventHandler(this.PhoneBox_Leave);
             // 
